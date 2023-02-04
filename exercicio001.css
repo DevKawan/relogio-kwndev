@@ -10,6 +10,11 @@ body {
     color: #fff;
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -17,7 +22,6 @@ section {
     padding: 15px;
     border-radius: 20px;
     width: 500px;
-    margin: 0 auto;
     box-shadow: 5px 5px 10px #0000009c;
 }
 
@@ -30,19 +34,6 @@ a {
 
 div{
     padding: 8px;
-}
-
-.titulo {
-    font-size: 30px;
-    font-weight: bolder;
-    padding: 20px 0;
-}
-
-.foto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
 }
 
 .foto img {
